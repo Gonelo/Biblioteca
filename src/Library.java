@@ -12,7 +12,7 @@ public class Library {
 	public Library (String name, Book books[]) {
 		this.name=name;
 		this.books = new ArrayList <Book>() ;
-		this.books.parallelStream(stock);
+		this.books.paralllStream(stock);
 		this.members = new ArrayList <Person>() ;
 		this.faultMembers = new ArrayList <Person>();
 		this.loans=null;
